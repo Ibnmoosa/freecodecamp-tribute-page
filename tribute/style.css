@@ -1,0 +1,52 @@
+body{
+    background: #f9f9f9;
+}
+img {
+    max-width: 100%;
+    display:block;
+    height:auto;
+    margin: 0 auto;
+    
+}
+#img-caption{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin: 50px;
+}
+ul {
+ line-height: 1.6;
+ max-width: 550px;
+ margin: 0 auto 50px auto;
+
+}
+li{
+    display: list-item;
+    text-align: justify;
+
+}
+.link-tribute{
+    text-align: center;
+}
+.ptag{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:780px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        
+    }
+}
